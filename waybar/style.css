@@ -113,12 +113,18 @@ button:hover {
 .modules-right > widget:last-child > #workspaces {
     margin-right: 0;
 }
+
 #clock {
     background-color: #6890a2;
     color: #e6f0f4;
     border-radius: 20px;
     min-width: 65px;
     margin-right: 20px;
+}
+
+window.HDMI-A-1 #clock {
+    background-color: #dc6a41;
+    color: #f7dfd6
 }
 
 #battery {
@@ -181,6 +187,11 @@ label:focus {
     margin-right: -1px
 }
 
+window.HDMI-A-1 #custom-gpu-usage {
+    background-color: #ecd29c;
+    color: #321a04
+}
+
 #temperature.gpu {
     background-color: #afc6d0;
     color: #404a4f;
@@ -188,6 +199,11 @@ label:focus {
     margin-right: 2px;
     margin-left: 0px;
     min-width: 50px
+}
+
+window.HDMI-A-1 #temperature.gpu {
+    background-color: #ecd29c;
+    color: #321a04
 }
 
 #cpu {
@@ -199,6 +215,11 @@ label:focus {
     min-width: 60px
 }
 
+window.HDMI-A-1 #cpu {
+    background-color: #ecd29c;
+    color: #321a04
+}
+
 #temperature.cpu {
     background-color: #afc6d0;
     color: #404a4f;
@@ -208,11 +229,21 @@ label:focus {
     min-width: 0px
 }
 
+window.HDMI-A-1 #temperature.cpu {
+    background-color: #ecd29c;
+    color: #321a04
+}
+
 #memory {
     background-color: #afc6d0;
     color: #404a4f;
     min-width: 100px;
     border-radius: 20px;
+}
+
+window.HDMI-A-1 #memory {
+    background-color: #ecd29c;
+    color: #321a04
 }
 
 #disk {
@@ -239,6 +270,11 @@ label:focus {
     min-width: 80px;
 }
 
+window.HDMI-A-1 #pulseaudio.sink {
+    background-color: #dc6a41;
+    color: #f7dfd6
+}
+
 #pulseaudio.source {
     background-color: #6890a2;
     color: #e6f0f4;
@@ -247,9 +283,19 @@ label:focus {
     min-width: 95px;
 }
 
+window.HDMI-A-1 #pulseaudio.source {
+    background-color: #dc6a41;
+    color: #f7dfd6
+}
+
 #pulseaudio.muted {
     background-color: #334751;
     color: #e6f0f4;
+}
+
+window.HDMI-A-1 #pulseaudio.muted {
+    background-color: #6c2b14;
+    color: #f7dfd6
 }
 
 #wireplumber {
